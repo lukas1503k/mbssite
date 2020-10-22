@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+#unselectedButton{
+
+    height: 100%;
+    width: 33%;
+    color: white;
+    background-color: #5F0E78;
+
+    border-radius: 90%!important;
+
+    z-index: 100;
+    position: relative;
+}
+
+#selectHeading{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+
+
+    color: #5F0E78;
+}
+.dropdown-toggle::before {
+    content: "▼";
+    color:#5F0E78;
+}
+.dropdown-toggle{
+    background-color:white;
+    border: #FFFFFF;
+    color: #5F0E78;
+}
+.dropdown-toggle::after {
+    display: none;
+
+}
+
+div.btn-group.show div.dropdown-menu.show {
+    background-color: #4b4b4b;
+}
+
+div.btn-group.show div.dropdown-menu.show button.dropdown-item {
+    color: white;
+}
+
+div.btn-group.show div.dropdown-menu.show div.dropdown-divider {
+    border-top: 1px solid white;
+}
+
+div.btn-group.show div.dropdown-menu.show button.dropdown-item:hover,
+div.btn-group.show div.dropdown-menu.show button.dropdown-item:focus {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+ .btn-success:hover {
+     color: #5F0E78;
+     background-color: white;
+     border-color: white;
+ }
+
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
