@@ -6,7 +6,7 @@ import {Container, Row, Col } from 'reactstrap';
 class Heading extends Component {
 
     render() {
-       let liStyle ={display: "inline", paddingLeft: "1.333vw", color: "white", font:"Roboto", style:"normal", weight:"400"}
+       let liStyle ={display: "inline", paddingLeft: "1.333vw", color: "white", font:"Roboto", style:"normal", weight:"400", fontSize:"1.5vw"}
         return (
             <div style = {{backgroundColor:"#5F0E78", width:"99vw", padding:"0px", marginRight:"0px"}}>
                 <Row style ={{marginRight: "0px"}}>
