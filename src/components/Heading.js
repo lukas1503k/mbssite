@@ -38,7 +38,9 @@ class Heading extends Component {
                                 </a>
                             </li>
                             <li style={liStyle}>
+                                <a href ="/ContactUs">
                                 Contact Us
+                                </a>
                             </li>
                             <li style={liStyle}>
                                 Sign In

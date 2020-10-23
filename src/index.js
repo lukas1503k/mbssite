@@ -16,6 +16,7 @@ import FaQs from "./components/FAQs";
 import { BrowserRouter, Route, Switch} from "react-router-dom";
 import OurMission from "./components/Our Mission";
 import Home from "./components/Home";
+import Contact from "./components/Contact";
 const routing = (
     <BrowserRouter forceRefresh={true}>
         <Switch>
@@ -23,6 +24,8 @@ const routing = (
             <Route path="/Mission" component={OurMission}/>
             <Route path="/FAQs" component={FaQs}/>
             <Route path="/App" component={OurApp}/>
+            <Route path = "/ContactUs" component={Contact}/>
+
             <Route exact path="/" component={Home} />
 
 
