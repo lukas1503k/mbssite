@@ -1,10 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 #unselectedButton{
 
-    height: 100%;
-    width: 33%;
+    height: 3vw;
+    width: 9vw;
     color: white;
     background-color: #5F0E78;
+    font-size: 1vw;
+
+    border-radius: 90%!important;
+
+    z-index: 100;
+    position: relative;
+}
+
+#selectedButton{
+
+    height: 3vw;
+    width: 9vw;
+    color: #5F0E78;
+    background-color: white;
+    border-color: #5F0E78;
+    font-size: 1vw;
+
+    border-radius: 90%!important;
+
+    z-index: 100;
+    position: relative;
+}
+
+
+#selectedButtonMobile{
+
+    height: 10vw;
+    width: 30vw;
+    color: #5F0E78;
+    background-color: white;
+    border-color: #5F0E78;
+    font-size: 3vw;
+
+    border-radius: 90%!important;
+
+    z-index: 100;
+    position: relative;
+}
+
+#unselectedButtonMobile{
+
+    height: 10vw;
+    width: 30vw;
+    color: white;
+    background-color: #5F0E78;
+    font-size: 3vw;
 
     border-radius: 90%!important;
 
@@ -62,4 +108,12 @@ div.btn-group.show div.dropdown-menu.show button.dropdown-item:focus {
     color: #fff;
     background-color: #fff;
     border-color: #fff;
+}
+
+
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover,.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    color: #fff;
+    background-color: #5F0E78;
+    border-color: #5F0E78;
+
 }

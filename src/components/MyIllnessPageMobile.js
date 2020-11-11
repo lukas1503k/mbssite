@@ -6,13 +6,18 @@ import {Dropdown} from "react-bootstrap";
 import DropdownItem from "reactstrap/es/DropdownItem";
 import DropdownMenu from "reactstrap/es/DropdownMenu";
 import DropdownToggle from "reactstrap/es/DropdownToggle";
-import Medications from "./Medications";
+import MedicationsMobile from "./MedicationsMobile";
 import Appointments from "./Appointments";
 import Doctors from "./Doctors";
 import Reminders from "./Reminders";
 import Diagnosis from "./Diagnosis";
 import Notes from "./Notes";
 import Logo from "../images/Rectangle 1.png"
+import AppointmentsMobile from "./AppointmentsMobile";
+import DoctorsMobile from "./DoctorsMobile";
+import RemindersMobile from "./RemindersMobile";
+import DiagnosisMobile from "./DiagnosisMobile";
+import NotesMobile from "./NotesMobile";
 class MyIllnessPage extends Component {
     //8.417836%
 
@@ -26,27 +31,27 @@ class MyIllnessPage extends Component {
 
     getStyle(idx){
         if(idx == this.state.selected){
-            return "selectedButton"
+            return "selectedButtonMobile"
 
         }
-        return "unselectedButton"
+        return "unselectedButtonMobile"
 
     }
 
     getComponent(){
         switch(this.state.selected) {
             case 0:
-                return <Medications/>
+                return <MedicationsMobile/>
             case 1:
-                return <Appointments/>
+                return <AppointmentsMobile/>
             case 2:
-                return <Doctors/>
+                return <DoctorsMobile/>
             case 3:
-                return <Reminders/>
+                return <RemindersMobile/>
             case 4:
-                return <Diagnosis/>
+                return <DiagnosisMobile/>
             case 5:
-                return <Notes/>
+                return <NotesMobile/>
         }
     }
 
@@ -55,11 +60,11 @@ class MyIllnessPage extends Component {
 
         let rowStyle = {textAlign:"center", marginTop: "1vw",height:"8.8888888%",marinBottom:"1vw"};
         return (
-            <Container style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw"}}>
-                <div id="heading" style={{backgroundColor:"#5F0E78", height:"4.3333vw", position:"static"}}>
+            <Container style = {{width: "95vw", height: "90vh", paddingLeft:"10vw"}}>
+                <div id="heading" style={{backgroundColor:"#5F0E78", height:"15vw", position:"static"}}>
                     {/*<img style={{height: "100%"}} src={heading}/>*/}
-                    <img style = {{height:"3vw", marginLeft: "15%", marginTop:".5vw" }}src={Logo} />
-                    <a style ={{marginLeft:"1em", marginTop:"5vw", fontSize: "1vw", color: "white" }}>
+                    <img style = {{height:"10vw", marginLeft: "15%", marginTop:"2vw" }}src={Logo} />
+                    <a style ={{marginLeft:"1em", marginTop:"6vw", fontSize: "3vw", color: "white" }}>
                         Medical Buddy Solutions
                     </a>
                 </div>
@@ -67,15 +72,15 @@ class MyIllnessPage extends Component {
 
                    <Row style = {rowStyle}>
                         <Col style={{margin:"auto"}}>
-                            <h2 id={"selectHeading"} style={{fontSize:"1vw", margin:"auto"}}>
+                            <h2 id={"selectHeading"} style={{fontSize:"4vw", margin:"auto"}}>
                                 Select Heading
 
                             </h2>
 
                         </Col>
 
-                       <Col>
-                           <button style ={{width: "9vw", color: "#5F0E78", backgroundColor: "white"}}>
+                       <Col style = {{margin:"auto"}}>
+                           <button style ={{width: "20vw", color: "#5F0E78", backgroundColor: "white", fontSize:"3vw", paddingLeft:"0px", marginLeft:"0px"}}>
                                &#9660; Diabetes
                            </button>
                        </Col>
@@ -112,7 +117,7 @@ class MyIllnessPage extends Component {
                 </Row>
                 {/*
                 <Medications></Medications>
-                <Appointments/>
+                <AppointmentsMobile/>
                 <DoctorsMobile/>
                 <RemindersMobile/>
                 <DiagnosisMobile/>

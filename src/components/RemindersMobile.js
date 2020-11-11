@@ -2,19 +2,21 @@ import React, {Component} from 'react';
 import {Col, Container, Row} from "reactstrap";
 
 
-class Reminders extends Component {
+class RemindersMobile extends Component {
 
-    daybutton = {width: "1.8vw", height:"1.8vw", marginLeft:".5vw"}
+    daybutton = {padding:"0px", width: "8vw", height:"8vw", marginLeft:"2vw", fontSize: "5vw"}
+
+    selectedButton = {padding:"0px", width: "8vw", height:"8vw", marginLeft:"2vw", fontSize: "5vw", backgroundColor: "white", color: "#5F0E78", borderColor:"#5F0E78"}
 
     render() {
         return (
             <Container>
                 <Row>
                     <Col>
-                        <h2  style={{fontSize:"1.5vw"}}>
+                        <h2  style={{fontSize: "5vw"}}>
                             Reminders
                         </h2>
-                        <p style={{fontSize:"1vw", paddingLeft:"1vw"}}>
+                        <p style={{fontSize:"4vw", paddingLeft:"2vw"}}>
                                 September 21, 2020
                         </p>
                     </Col>
@@ -22,8 +24,8 @@ class Reminders extends Component {
                     </Row>
                 <Row>
                     <Col>
-                        <h2 style={{fontSize:"1.5vw"}}>Medications</h2>
-                         <p> Insulin</p>
+                        <h2 style={{fontSize: "5vw"}}>Medications</h2>
+                         <p style={{fontWeight:"bold"}}> Insulin</p>
                     </Col>
                 </Row>
                 <Row>
@@ -38,19 +40,19 @@ class Reminders extends Component {
                 </Row>
                 <Row>
                     <Col>
-                        <button style={this.daybutton}>
+                        <button style={this.selectedButton}>
                             S
                         </button>
                         <button style={this.daybutton}>
                             M
                         </button>
-                        <button  style={this.daybutton}>
+                        <button  style={this.selectedButton}>
                             T
                         </button>
                         <button style={this.daybutton}>
                             W
                         </button>
-                        <button style={this.daybutton}>
+                        <button style={this.selectedButton}>
                             T
                         </button>
                         <button style={this.daybutton}>
@@ -67,4 +69,4 @@ class Reminders extends Component {
     }
 }
 
-export default Reminders;
+export default RemindersMobile;

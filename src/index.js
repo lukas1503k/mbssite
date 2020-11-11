@@ -7,12 +7,12 @@ import * as serviceWorker from './serviceWorker';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import OurApp from "./components/Our App";
-import MyIllnessPage from "./components/MyIllnessPage";
+import MyIllnessPageMobile from "./components/MyIllnessPageMobile";
 //import OurApp from "./components/Our App";
 import "../src/stylesheets/wrapperStyling.css"
 import OurApp from "./components/Our App";
 import FaQs from "./components/FAQs";
-//<MyIllnessPage style ={{width:"100vw", height:"100%"}}/>
+//
 import { BrowserRouter, Route, Switch} from "react-router-dom";
 import OurMission from "./components/Our Mission";
 import Home from "./components/Home";
@@ -35,7 +35,7 @@ const routing = (
 )
 
 ReactDOM.render(
-    routing,
+   routing,
   document.getElementById('root')
 );
 

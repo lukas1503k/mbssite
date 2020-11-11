@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Col, Container, Row} from "reactstrap";
 
-class Doctors extends Component {
+class DoctorsMobile extends Component {
     state = {
         names:[],
         number:[],
@@ -39,12 +39,12 @@ class Doctors extends Component {
             <Container>
                 <Row>
                     <Col>
-                        <h2 style={{fontSize:"1.5vw"}}>
+                        <h2 style={{fontSize: "5vw"}}>
                             Doctors
                         </h2>
                     </Col>
                     <Col>
-                        <button onClick={this.addNewDoctor} style={{height: "1.5vw", width:"5.25vw", padding:"0px"}}>
+                        <button onClick={this.addNewDoctor} style={{height: "6vw", width:"11vw", padding:"0px", fontSize: "3vw"}}>
                             Add
                         </button>
                     </Col>
@@ -56,7 +56,7 @@ class Doctors extends Component {
 
                             <Col>
                                 <p style={{fontWeight: "bold"}}>
-                                    <button style={{backgroundColor: "#770E49", padding:"0px", color:"white", borderRadius:"0px", height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>
+                                    <button  style={{backgroundColor: "#770E49",margin:"auto", color:"white", borderRadius:"0px",padding:"0px",height: "5vw", width:"5vw",fontSize:"3vw", marginRight:"0.4vw" }}>
                                         x
                                     </button>
 
@@ -73,7 +73,7 @@ class Doctors extends Component {
                             <li>
                                 <div>
                                     <p>
-                                        Office Address: <input placeholder="404 This Way/ Near the mall" disabled = {true}/>
+                                        Office Address: <input style={{width:"60vw"}} placeholder="404 This Way/ Near the mall" disabled = {true}/>
                                     </p>
                                 </div>
                             </li>
@@ -86,4 +86,4 @@ class Doctors extends Component {
     }
 }
 
-export default Doctors;
+export default DoctorsMobile;

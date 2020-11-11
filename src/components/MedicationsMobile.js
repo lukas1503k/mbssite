@@ -7,12 +7,12 @@ class Medications extends Component {
             <Container>
                 <Row>
                     <Col>
-                        <h2 style={{fontSize: "1.5vw"}}>
+                        <h2 style={{fontSize: "5vw"}}>
                             Medications
                         </h2>
                     </Col>
                     <Col>
-                        <button style={{height: "1.5vw", width:"5.25vw", padding:"0px"}}>
+                        <button style={{height: "6vw", width:"11vw", padding:"0px", fontSize: "3vw"}}>
                             Add
                         </button>
                     </Col>
@@ -23,7 +23,7 @@ class Medications extends Component {
                            
                            <Col>
                        <p style={{fontWeight:"bold"}}>
-                           <button style={{backgroundColor: "#770E49", color:"white", borderRadius:"0px", padding:"0px",height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>
+                           <button style={{backgroundColor: "#770E49",margin:"auto", color:"white", borderRadius:"0px",padding:"0px",height: "5vw", width:"5vw",fontSize:"3vw", marginRight:"0.4vw" }}>
                                x
                            </button>
 
@@ -37,14 +37,14 @@ class Medications extends Component {
                                Reaction/Side-effects:
                            </li>
                            <li>
-                               <input placeholder="Rash where I put the needle in" disabled = {true}/>
+                               <input style={{width:"60vw"}} placeholder="None" disabled = {true}/>
                            </li>
                            <li style={{paddingTop:"0.5vw" }}>
                                <div>
                                    <a>
                                        Dosage:
                                    </a>
-                                   <input style={{width:"9vw", marginLeft: "0.4vw"}} placeholder="Check email from Dr. Smith" disabled = {true}/>
+                                   <input style={{width:"60vw", marginLeft: "0.4vw"}} placeholder="Check email from Dr. Smith" disabled = {true}/>
                                </div>
                            </li>
                        </ul>

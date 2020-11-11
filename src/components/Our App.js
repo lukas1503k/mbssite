@@ -8,6 +8,7 @@ import AppImage from "../images/Rectangle 7.png"
 import Lock from "../images/lock.png"
 import App from "../App";
 import MyIllnessPage from "./MyIllnessPage";
+import MyIllnessPageMobile from "./MyIllnessPageMobile"
 
 class OurApp extends Component {
     render() {
@@ -31,8 +32,10 @@ class OurApp extends Component {
                     </Col>
                     <Col style ={{width: "28.83333333vw", height: "44.8333vw"}}>
                         <img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw"}}src ={AppScreen}/>
+
                     </Col>
                 </Row>
+                {window.innerWidth >= 760 &&
                 <Row style={{width:"99vw", paddingTop:"5vw"}}>
                     <Col style = {{width:"51.833333vw"}}>
                         <h1 style={{paddingLeft: "5.41666vw", fontSize: "3vw", width: "51.8333vw"}}>
@@ -42,9 +45,28 @@ class OurApp extends Component {
                             Your illness page allows you to keep track of your illnessess, medications and your appointments. With out app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider tells you.                        </p>
                     </Col>
                     <Col style ={{width: "28.83333333vw", height: "44.8333vw"}}>
-                        <img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw"}}src ={AppImage}/>
+                        <MyIllnessPage />
+                        {/*<img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw"}}src ={AppImage}/>*/}
                     </Col>
                 </Row>
+                }
+                {window.innerWidth <= 760 &&
+                    <>
+                    <Row style={{width:"99vw", paddingTop:"5vw"}}>
+                        <h1 style={{paddingLeft: "10vw", fontSize: "3vw", width: "51.8333vw"}}>
+                            My Contact Page
+                        </h1>
+                        <p style={{paddingLeft: "10vw" , fontSize: "2vw", color:"#26770E"}}>
+                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With out app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider tells you.                        </p>
+                    </Row>
+                    <Row style={{width:"98vw", paddingTop:"5vw"}}>
+                        <h1 style={{paddingLeft: "10vw" , fontSize: "3vw"}}> Try It Out Here</h1>
+                        <MyIllnessPageMobile style={{paddingLeft:"5vw"}} />
+                        {/*<img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw"}}src ={AppImage}/>*/}
+                    </Row>
+                    </>
+                }
+
                 <Row style={{width:"99vw", paddingTop:"5vw"}}>
                     <Col style = {{width:"51.833333vw"}}>
                         <h1 style={{paddingLeft: "5.41666vw", fontSize: "3vw", width: "51.8333vw"}}>

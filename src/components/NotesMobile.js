@@ -1,20 +1,20 @@
 import React, {Component} from 'react';
 import {Col, Container, Row} from "reactstrap";
 
-class Notes extends Component {
+class NotesMobile extends Component {
     render() {
         return (
             <Container>
                 <Row>
                     <Col>
-                        <h2 style={{fontSize:"1.5vw"}}>
+                        <h2 style={{fontSize: "5vw"}}>
                             Notes
                         </h2>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                       <button style={{backgroundColor: "#770E49", padding:"0px", color:"white", borderRadius:"0px",height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>x </button> <input style ={{width: "16vw", height: "8vw"}} placeholder="" disabled = {true}/>
+                       <button  style={{backgroundColor: "#770E49",margin:"auto", color:"white", borderRadius:"0px",padding:"0px",height: "5vw", width:"5vw",fontSize:"3vw", marginRight:"0.4vw" }}>x </button> <input style ={{width: "65vw", height: "25vh"}} placeholder="" disabled = {true}/>
                     </Col>
                 </Row>
 
@@ -23,4 +23,4 @@ class Notes extends Component {
     }
 }
 
-export default Notes;
+export default NotesMobile;

@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import {Col, Container, Row} from "reactstrap";
 
-class Appointments extends Component {
+class AppointmentsMobile extends Component {
     render() {
         return (
             <Container>
                 <Row>
                     <Col>
-                        <h2 style={{fontSize:"1.5vw"}}>
+                        <h2 style={{fontSize: "5vw"}}>
                             Appointments
                         </h2>
                     </Col>
                     <Col>
-                        <button style={{height: "1.5vw", width:"5.25vw", padding:"0px"}}>
+                        <button style={{height: "6vw", width:"11vw", padding:"0px", fontSize: "3vw"}}>
                             Add
                         </button>
                     </Col>
@@ -23,7 +23,7 @@ class Appointments extends Component {
 
                             <Col>
                                 <p>
-                                    <button style={{backgroundColor: "#770E49", padding:"0px", color:"white", borderRadius:"0px", height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>
+                                    <button  style={{backgroundColor: "#770E49",margin:"auto", color:"white", borderRadius:"0px",padding:"0px",height: "5vw", width:"5vw",fontSize:"3vw", marginRight:"0.4vw" }}>
                                         x
                                     </button>
 
@@ -34,14 +34,14 @@ class Appointments extends Component {
                         <ul style={{listStyleType:"none"}}>
 
                             <li>
-                                <p>Time: <input placeholder="11:15 am" disabled = {true}/></p>
+                                <p style={{marginBottom:"0px"}}>Time: <input style={{width:"60vw", marginBottom:"1vw"}} placeholder="11:15 am" disabled = {true}/></p>
                             </li>
 
                             <li>
                                 <div>
                                     <a>
                                         Location:
-                                        <input placeholder="Dr. Smith's office" disabled = {true}/>
+                                        <input style={{width:"60vw", marginBottom:"1vw"}} placeholder="Dr. Smith's office" disabled = {true}/>
                                     </a>
 
                                 </div>
@@ -50,7 +50,7 @@ class Appointments extends Component {
                                 <div>
                                     <a>
                                         Purpose:
-                                        <input placeholder="Go over the side effects of my insulin" disabled = {true}/>
+                                        <input style={{width:"60vw", marginBottom:"1vw"}} placeholder="Discuss my diet" disabled = {true}/>
                                     </a>
 
                                 </div>
@@ -59,7 +59,7 @@ class Appointments extends Component {
                                 <div>
                                     <a>
                                         Post Appointment Notes:
-                                        <input placeholder="Doctor told me that my reaction to the medicine was normal, it's not something I should be worried about" disabled = {true}/>
+                                        <input style={{width:"60vw", marginBottom:"1vw"}} placeholder="Got referred to a specialist" disabled = {true}/>
                                     </a>
 
                                 </div>
@@ -72,4 +72,4 @@ class Appointments extends Component {
     }
 }
 
-export default Appointments;
+export default AppointmentsMobile;

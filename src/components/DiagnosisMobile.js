@@ -1,13 +1,13 @@
-import React, {Component} from 'react';
+    import React, {Component} from 'react';
 import {Col, Container, Row} from "reactstrap";
 
-class Diagnosis extends Component {
+class DiagnosisMobile extends Component {
     render() {
         return (
             <Container>
                 <Row>
                     <Col>
-                        <h2 style={{fontSize:"1.5vw"}}>
+                        <h2 style={{fontSize: "5vw"}}>
                             Diagnosis
                         </h2>
                     </Col>
@@ -29,4 +29,4 @@ class Diagnosis extends Component {
     }
 }
 
-export default Diagnosis;
+export default DiagnosisMobile;
