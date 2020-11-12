@@ -39,7 +39,7 @@ class OurApp extends Component {
                 <Row style={{width:"99vw", paddingTop:"5vw"}}>
                     <Col style = {{width:"51.833333vw"}}>
                         <h1 style={{paddingLeft: "5.41666vw", fontSize: "3vw", width: "51.8333vw"}}>
-                            My Contact Page
+                            My Illness Page
                         </h1>
                         <p style={{paddingLeft: "5.41666vw" , fontSize: "2vw", color:"#26770E"}}>
                             Your illness page allows you to keep track of your illnessess, medications and your appointments. With out app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider tells you.                        </p>
