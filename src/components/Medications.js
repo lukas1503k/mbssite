@@ -37,7 +37,7 @@ class Medications extends Component {
                                Reaction/Side-effects:
                            </li>
                            <li>
-                               <input placeholder="Rash where I put the needle in" disabled = {true}/>
+                               <input placeholder="None" disabled = {true}/>
                            </li>
                            <li style={{paddingTop:"0.5vw" }}>
                                <div>
