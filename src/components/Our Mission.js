@@ -25,9 +25,9 @@ class OurMission extends Component {
                 </Col>
                 </Row>
 
+
                  <br/>
                  <br/>
-                <Footer/>
             </Container>
         );
     }

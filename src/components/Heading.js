@@ -8,7 +8,7 @@ class Heading extends Component {
     render() {
        let liStyle ={display: "inline", paddingLeft: "1vw", color: "white", font:"Roboto", style:"normal", weight:"400", fontSize:"1.5vw"}
         return (
-            <div style = {{backgroundColor:"#5F0E78", width:"99vw", padding:"0px", marginRight:"0px"}}>
+            <div style = {{backgroundColor:"#5F0E78", width:"100%", padding:"0px", marginRight:"0px"}}>
                 <Row style ={{marginRight: "0px"}}>
                     <Col>
                         <img src={logo} style = {{height:"15vw"}}/>

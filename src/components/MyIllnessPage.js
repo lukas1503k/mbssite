@@ -55,7 +55,7 @@ class MyIllnessPage extends Component {
 
         let rowStyle = {textAlign:"center", marginTop: "1vw",height:"8.8888888%",marinBottom:"1vw"};
         return (
-            <Container style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw"}}>
+            <Container style = {{float:"right", borderColor:"black", borderStyle:"solid", borderWidth:"thin", paddingLeft:"0vw", paddingRight:"0px", width: "28.83333333vw", height: "44.8333vw",backgroundColor:"white", color:"black"}}>
                 <div id="heading" style={{backgroundColor:"#5F0E78", height:"4.3333vw", position:"static"}}>
                     {/*<img style={{height: "100%"}} src={heading}/>*/}
                     <img style = {{height:"3vw", marginLeft: "15%", marginTop:".5vw" }}src={Logo} />
