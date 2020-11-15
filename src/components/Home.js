@@ -179,7 +179,7 @@ class Home extends Component {
                     <Col style={{paddingLeft:"3vw",}}>
 
                         <h1 style={{fontSize: "2.25vw", color:"white", fontWeight:"bold"}}>
-                            Innovate your relationship with your health data"</h1>
+                            Innovate your relationship with your health data</h1>
                         <p style={{ fontSize: "2vw", color: "white"}}>
                             Our mission is to help people become more interactive with their health information. By building your health journal you will have the ability to advocate for you and your families best health. With a background in private homecare it was evident that the need for a system was needed. We are striving to promote optimum wellness through an interactive organizational personal health journal. Our mission at Medical Buddy Solutions is to help others live their best life.
                         </p>
