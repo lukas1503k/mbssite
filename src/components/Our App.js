@@ -63,7 +63,7 @@ class OurApp extends Component {
                             Your illness page allows you to keep track of your illnessess, medications and your appointments. With out app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider recommends you.                        </p>
                     </Row>
                     <Row style={{ paddingTop:"5vw", backgroundColor:"#5F0E78", color:"white"}}>
-                        <h1 style={{paddingLeft: "10vw" , fontSize: "3vw", color:"white"}}> Try It Out Here</h1>
+                        <h1 style={{paddingLeft: "10vw" , fontSize: "3vw", color:"white", textAlign: "center"}}> Try It Out Here</h1>
                         <MyIllnessPageMobile style={{paddingLeft:"5vw"}} />
                         {/*<img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw"}}src ={AppImage}/>*/}
                     </Row>
