@@ -20,7 +20,7 @@ class Home extends Component {
 
             <Heading/>
 
-                <Row  style ={{width:"100%", marginTop: "7.08333vw",paddingBottom:"5vw" }}>
+                <Row xs="1" sm="2"  style ={{width:"100%", marginTop: "7.08333vw",paddingBottom:"5vw" }}>
 
                     <Col>
 
