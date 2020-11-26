@@ -65,6 +65,7 @@ class OurApp extends Component {
                     <Row style={{ paddingTop:"5vw", backgroundColor:"#5F0E78", color:"white"}}>
                         <h1 style={{paddingLeft: "10vw" , fontSize: "3vw", color:"white", textAlign: "center"}}> Try It Out Here</h1>
                         <MyIllnessPageMobile style={{paddingLeft:"5vw"}} />
+                        <br/>
                         {/*<img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw"}}src ={AppImage}/>*/}
                     </Row>
                     </>
