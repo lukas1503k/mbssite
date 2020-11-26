@@ -49,8 +49,8 @@ class Home extends Component {
                             Our mission is to help people become more interactive with their health information. By building your health journal you will have the ability to advocate for you and your families best health. With a background in private homecare it is evident that a better system was needed. We are striving to promote optimum wellness through an interactive organizational personal health journal. Our mission at Medical Buddy Solutions is to help others live their best life.
                         </p>
                     </Col>
-                    <Col style={{margin:"auto"}}>
-                        <img style={{width:"50vw", textAlign:"center"}} src ={healthCarePhoto}/>
+                    <Col style={{margin:"auto",textAlign:"center"}}>
+                        <img style={{width:"45vw"}} src ={healthCarePhoto}/>
                     </Col>
 
 
