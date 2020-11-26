@@ -20,7 +20,7 @@ class Home extends Component {
 
             <Heading/>
 
-                <Row xs="1" sm="2"  style ={{width:"100%", marginTop: "7.08333vw",paddingBottom:"5vw" }}>
+                <Row  style ={{width:"100%", marginTop: "7.08333vw",paddingBottom:"5vw" }}>
 
                     <Col>
 
@@ -39,7 +39,7 @@ class Home extends Component {
 
 
 
-                <Row style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingTop:"3vw", backgroundColor:"#5F0E78"}}>
+                <Row xs="1" sm="2"  style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingTop:"3vw", backgroundColor:"#5F0E78"}}>
                     <Col style={{paddingLeft:"3vw",}}>
 
                         <h1 style={{fontSize: "2vw", color:"white", fontWeight:"bold"}}>
