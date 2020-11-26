@@ -6,7 +6,7 @@ import "../Home.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import QRcode from "../images/QR-code-600x600.png"
 import videoPreview from "../images/Capture.PNG"
-import paramedicPhoto from "../images/istockphoto-1211390857-2048x2048.jpg"
+import paramedicPhoto from "../images/istockphoto-841899584-1024x1024.jpg"
 import techPhoto from "../images/istockphoto-588366224-1024x1024.jpg"
 import {Container, Row, Col } from 'reactstrap';
 import lockPhoto from "../images/istockphoto-913016600-1024x1024.jpg"
@@ -39,26 +39,21 @@ class Home extends Component {
 
 
 
-                <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingTop:"3vw", backgroundColor:"#5F0E78",gridAutoFlow: "row"}}>
-                    <Col style = {{textAlign: "center", margin: "auto"}}>
-                        <img src={QRcode} style={{height:"30vw"}}/>
+                <Row style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingTop:"3vw", backgroundColor:"#5F0E78"}}>
+                    <Col style={{paddingLeft:"3vw",}}>
+
+                        <h1 style={{fontSize: "2vw", color:"white", fontWeight:"bold"}}>
+                            Innovate your relationship with your health data</h1>
+                        <br/>
+                        <p style={{ fontSize: "2vw", color: "white"}}>
+                            Our mission is to help people become more interactive with their health information. By building your health journal you will have the ability to advocate for you and your families best health. With a background in private homecare it is evident that a better system was needed. We are striving to promote optimum wellness through an interactive organizational personal health journal. Our mission at Medical Buddy Solutions is to help others live their best life.
+                        </p>
+                    </Col>
+                    <Col style={{margin:"auto"}}>
+                        <img style={{width:"50vw", textAlign:"center"}} src ={healthCarePhoto}/>
                     </Col>
 
-                    <Col style = {{}}>
 
-                            <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "white", fontWeight: "bold"}}>
-                                All Your Health Records Available in One Place!
-                            </h1>
-                            <br/>
-                            <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
-                                Have you ever needed to get some information about your medical condition and didn’t know where to even look to find it? For example, what’s your blood type, what earlier conditions have you had that may affect your current health? If you are one of the many that need to have access to your medical records, we have the perfect solution for you.
-                            </h2>
-                            <br/>
-                            <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
-                                With a simple QR code you can now access your medical data at a glance on your phone or tablet. This quick access will help you in medical emergencies or when need information for your health insurance, or you simply want to know what is recorded concerning your health.
-                            </h2>
-
-                    </Col>
                 </Row>
 
                 <Row style={{width:"100%", margin:"0px",paddingBottom:"2vw", backgroundColor:"#5F0E78"}}>
@@ -71,29 +66,50 @@ class Home extends Component {
 
                 </Row>
 
-                <Row xs="1" sm="2" style={{width: "99vw", paddingTop: "0vw",marginTop: "6vw", paddingBottom:"1vw"}}>
-                    <Col style={{paddingLeft:"1vw"}}>
-                        <div style={{margin: "auto",paddingLeft:"1vw",textAlign:"center", width: "56vw"}}>
-                            <h1 style={{fontSize:"3vw", color:"#5F0E78"}}>
+                <Row xs="1" sm="2" style={{width: "99vw",margin:"0px", paddingTop: "0vw",marginTop: "6vw", marginBottom:"6vw", paddingBottom:"1vw"}}>
+                    <Col style={{paddingLeft:"3vw"}}>
+
+                            <h1 style={{fontSize: "2.25vw", color:"#5F0E78", fontWeight:"bold"}}>
+                                Health Data On the Fly!
+                            </h1>
+                            <p style={{ fontSize: "2vw", color: "#5F0E78"}}>
+                                All of us at Medical Buddy Solutions realize the value of having the capability to
+                                collaborate with medial professionals when times call for important medical details.
+                                Being able to share with trusted partners is a recipe for your health success.
+                            </p>
+                            {/*
+                             <div style={{margin: "auto",paddingLeft:"1vw",textAlign:"center", width: "56vw"}}>
+                            <h1 style={{fontSize: "3vw", color: "#5F0E78"}}>
                                 Health Data On the Fly!
                             </h1>
 
 
-                            <h2 id="h1Subtext" style={{fontSize: "2vw", lineHeight:"3vw", marginTop:"2.8333vw", color:"#5F0E78"}}>
+                                <h2 id="h1Subtext" style={{
+                                fontSize: "2vw",
+                                lineHeight: "3vw",
+                                marginTop: "2.8333vw",
+                                color: "#5F0E78"
+                            }}>
                                 All of us at Medical Buddy Solutions realize the value of having the capability to
                                 collaborate with medial professionals when times call for important medical details, as
                                 well as being able to share with trusted partners for the best possible medical
                                 outcomes. having your digital data at your fingertips for your knowledge and success.
-                            </h2>
+                                </h2>
 
-                            <h2 id="h1Subtext" style={{fontSize: "2vw", marginTop:"2.8333vw", lineHeight:"3vw", color:"#5F0E78"}}>
+                                <h2 id="h1Subtext" style={{
+                                fontSize: "2vw",
+                                marginTop: "2.8333vw",
+                                lineHeight: "3vw",
+                                color: "#5F0E78"
+                            }}>
                                 With our app and blockchain technology you will be able to keep track of your
                                 appointments, manage your conditions, and edit what is seen when your QR code is
                                 scanned.
-                            </h2>
-                        </div>
+                                </h2>
+                                </div>*/}
+
                     </Col>
-                    <Col style={{textAlign:"right",margin:"auto",paddingRight: "0px", paddingLeft: "0px"}}>
+                    <Col style={{textAlign:"center",margin:"auto",paddingRight: "0px", paddingLeft: "0px"}}>
                         <img style={{width: "32vw", paddingRight: "0px"}} src={videoPreview}/>
                     </Col>
                 </Row>
@@ -148,8 +164,8 @@ class Home extends Component {
                         <br/>
                         <Row style={{marginRight:"0px"}}>
                             <h2 id="h1Subtext" style={{fontSize: "2vw", lineHeight:"3vw", color:"white", padding:"4vw"}}>
-                                Our intuitive app makes it easy to update your responder page, as well as your medical
-                                journal. We let you manage your medical history quickly and easily. You are in control,
+                                With our intuitive app makes it easy to update your responder page, as well as your medical
+                                journal. You can manage your medical history quickly and easily. You are in control,
                                 optimize your health by tracking your data! </h2></Row>
 
                     </Col>
@@ -158,7 +174,7 @@ class Home extends Component {
 
 
 
-                <Row xs="1" sm="2" style = {{ backgroundColor:"white", paddingTop:"5vw", width:"100%", margin:"0px"}}>
+                <Row xs="1" sm="2" style = {{ backgroundColor:"white", paddingTop:"5vw", paddingBottom:"5vw", width:"100%", margin:"0px"}}>
 
                     <Col style={{textAlign:"center"}}>
                         <img src={lockPhoto} style={{width: "25vw", height: "25vw", margin: "auto"}}/>
@@ -175,20 +191,27 @@ class Home extends Component {
                         </p>
                     </Col>
                 </Row>
-                <Row style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingTop:"3vw", backgroundColor:"#5F0E78"}}>
-                    <Col style={{paddingLeft:"3vw",}}>
 
-                        <h1 style={{fontSize: "2.25vw", color:"white", fontWeight:"bold"}}>
-                            Innovate your relationship with your health data</h1>
-                        <p style={{ fontSize: "2vw", color: "white"}}>
-                            Our mission is to help people become more interactive with their health information. By building your health journal you will have the ability to advocate for you and your families best health. With a background in private homecare it was evident that the need for a system was needed. We are striving to promote optimum wellness through an interactive organizational personal health journal. Our mission at Medical Buddy Solutions is to help others live their best life.
-                        </p>
-                    </Col>
-                    <Col style={{margin:"auto"}}>
-                        <img style={{width:"50vw", textAlign:"center"}} src ={healthCarePhoto}/>
+                <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"#5F0E78",gridAutoFlow: "row"}}>
+                    <Col style = {{textAlign: "center", margin: "auto"}}>
+                        <img src={QRcode} style={{height:"30vw"}}/>
                     </Col>
 
+                    <Col style = {{}}>
 
+                        <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "white", fontWeight: "bold"}}>
+                            All Your Health Records Available in One Place!
+                        </h1>
+                        <br/>
+                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
+                            Have you ever needed to get some information about your medical condition and didn’t know where to even look to find it? What’s your blood type? What earlier conditions have you had that may affect your current health? If you are one of the many that need to have access to your medical records, we have the perfect solution for you.
+                        </h2>
+                        <br/>
+                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
+                            Introducing Medical Buddy Solutions. You can now record all of your medical information on a single app, then access it anytime and anywhere with a simple QR code. With this QR code you will have your information readily available in medical emergencies or when need information for your health insurance.
+                        </h2>
+
+                    </Col>
                 </Row>
 
             </div>

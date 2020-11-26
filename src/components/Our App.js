@@ -27,7 +27,7 @@ class OurApp extends Component {
                              My Emergency Page
                          </h1>
                         <br/>
-                        <p style={{paddingLeft: "5.41666vw", fontSize: "2vw", color:"#8514A7"}}>
+                        <p style={{paddingLeft: "5.41666vw", fontSize: "2vw", color:"#8514a7"}}>
                             Your emergency page serves as a quick view into your medical history. In case of an emergency, first responders can scan your QR code and get the information they need to help you.
                         </p>
                     </Col>
@@ -44,7 +44,8 @@ class OurApp extends Component {
                         </h1>
                         <br/>
                         <p style={{paddingLeft: "5.41666vw" , fontSize: "2vw", color:"white"}}>
-                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With out app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider tells you.                        </p>
+                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With our app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider tells you.
+                        </p>
                     </Col>
                     <Col style ={{width: "28.83333333vw", height: "44.8333vw"}}>
                         <MyIllnessPage />
@@ -59,7 +60,7 @@ class OurApp extends Component {
                             My Contact Page
                         </h1>
                         <p style={{paddingLeft: "10vw" , fontSize: "2vw", color:"white"}}>
-                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With out app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider tells you.                        </p>
+                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With out app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider recommends you.                        </p>
                     </Row>
                     <Row style={{ paddingTop:"5vw", backgroundColor:"#5F0E78", color:"white"}}>
                         <h1 style={{paddingLeft: "10vw" , fontSize: "3vw", color:"white"}}> Try It Out Here</h1>
