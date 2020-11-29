@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import Box from '@material-ui/core/Box';
-import stock from "../images/istockphoto-611178972-2048x2048.jpg"
+import stock from "../images/Untitled-3.png"
 import Heading from "./Heading";
 import "../Home.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import QRcode from "../images/QR-code-600x600.png"
+import QRcode from "../images/istockphoto-910737126-1024x1024.jpg"
+import healthWealth from "../images/istockphoto-1062274514-1024x1024.jpg"
 import videoPreview from "../images/Capture.PNG"
-import paramedicPhoto from "../images/istockphoto-841899584-1024x1024.jpg"
+import paramedicPhoto from "../images/istockphoto-1131889468-1024x1024.jpg"
 import techPhoto from "../images/istockphoto-588366224-1024x1024.jpg"
 import {Container, Row, Col } from 'reactstrap';
 import lockPhoto from "../images/istockphoto-913016600-1024x1024.jpg"
@@ -31,7 +32,7 @@ class Home extends Component {
 
                     </Col>
                     <Col>
-                        <img src={stock} style={{marginLeft: "27vw", width:"64vw", height:"28vw", paddingRight:"0px"}}/>
+                        <img src={stock} style={{marginLeft: "27vw", width:"60vw", height:"28vw", paddingRight:"0px"}}/>
 
                     </Col>
 
@@ -191,23 +192,44 @@ class Home extends Component {
                         </p>
                     </Col>
                 </Row>
-
                 <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"#5F0E78",gridAutoFlow: "row"}}>
+                    <Col style = {{}}>
+
+                        <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "white", fontWeight: "bold"}}>
+                            Protect What Is Most Valuable
+                        </h1>
+                        <br/>
+                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
+                            Many people neglect their health in their busy lives. With our app we make it easy to track your appointments and record details regarding your health. Your health is your wealth, protect the most precious thing you own with Medical Buddy Solutions.
+                        </h2>
+                       <br/>
+
+
+                    </Col>
+
+                    <Col style = {{textAlign: "center", margin: "auto"}}>
+                        <img src={healthWealth} style={{height:"30vw", width:"100%"}}/>
+                    </Col>
+
+
+                </Row>
+
+                <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"white",gridAutoFlow: "row"}}>
                     <Col style = {{textAlign: "center", margin: "auto"}}>
                         <img src={QRcode} style={{height:"30vw"}}/>
                     </Col>
 
                     <Col style = {{}}>
 
-                        <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "white", fontWeight: "bold"}}>
+                        <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "#5F0E78", fontWeight: "bold"}}>
                             All Your Health Records Available in One Place!
                         </h1>
                         <br/>
-                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
+                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "#5F0E78"}} id="h1Subtext">
                             Have you ever needed to get some information about your medical condition and didn’t know where to even look to find it? What’s your blood type? What earlier conditions have you had that may affect your current health? If you are one of the many that need to have access to your medical records, we have the perfect solution for you.
                         </h2>
                         <br/>
-                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
+                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "#5F0E78"}} id="h1Subtext">
                             Introducing Medical Buddy Solutions. You can now record all of your medical information on a single app, then access it anytime and anywhere with a simple QR code. With this QR code you will have your information readily available in medical emergencies or when need information for your health insurance.
                         </h2>
 

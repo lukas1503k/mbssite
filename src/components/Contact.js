@@ -25,7 +25,7 @@ class Contact extends Component {
                 <Row style ={{paddingLeft:"5vw"}}>
                     <input style={{height: "10vw", width:"50vw"}}/>
                 </Row>
-                <button style={{marginLeft: "46vw",fontSize:"2vw",marginTop:"2vw",width:"10vw",fontColor:"#FFFFFFFFFf"}}>
+                <button style={{marginLeft: "46vw",fontSize:"2vw",marginTop:"2vw",width:"10vw",fontColor:"#FFFFFFFFF"}}>
                     Submit
                 </button>
                     <Footer/>
