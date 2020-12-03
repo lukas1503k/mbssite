@@ -165,8 +165,7 @@ class Home extends Component {
                         <br/>
                         <Row style={{marginRight:"0px"}}>
                             <h2 id="h1Subtext" style={{fontSize: "2vw", lineHeight:"3vw", color:"white", padding:"4vw"}}>
-                                With our intuitive app makes it easy to update your responder page, as well as your medical
-                                journal. You can manage your medical history quickly and easily. You are in control,
+                                Our intuitive app makes it easy to update your responder page and medical journal. With these two tools, you can manage and view your medical history with the click of a button. You are in control,
                                 optimize your health by tracking your data! </h2></Row>
 
                     </Col>
