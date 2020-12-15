@@ -199,7 +199,7 @@ class Home extends Component {
                         </h1>
                         <br/>
                         <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
-                            Many people neglect their health in their busy lives. With our app we make it easy to track your appointments and record details regarding your health. Your health is your wealth, protect the most precious thing you own with Medical Buddy Solutions.
+                            Many people neglect their health in their busy lives. With our app we make it easy to track your appointments and record details regarding your health. Your health is your wealth, protect the most valuable thing you own with Medical Buddy Solutions.
                         </h2>
                        <br/>
 
