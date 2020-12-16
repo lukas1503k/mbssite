@@ -12,6 +12,7 @@ import techPhoto from "../images/istockphoto-588366224-1024x1024.jpg"
 import {Container, Row, Col } from 'reactstrap';
 import lockPhoto from "../images/istockphoto-913016600-1024x1024.jpg"
 import healthCarePhoto from "../images/istockphoto-1182616138-2048x2048.jpg"
+import cover from "../images/Frame 1.png"
 
 import Footer from "./Footer";
 class Home extends Component {
@@ -25,14 +26,15 @@ class Home extends Component {
 
                     <Col>
 
-                        <div id="healthBox" style={{width:"39vw", float:"left", paddingLeft:"2vw", marginTop:"10vw"}}>
+                        <div id="healthBox" style={{width:"39vw", float:"left", paddingLeft:"2vw", marginTop:"20vw"}}>
                             <h1 style = {{fontSize:"3vw", fontWeight:"bold"}}>Health at your fingertips</h1>
                             <h2 style = {{fontSize:"2vw"}} id="h1Subtext">Your health is your wealth! Be connected to your heath information with a simple app! </h2>
                         </div>
 
                     </Col>
                     <Col>
-                        <img src={stock} style={{marginLeft: "27vw", width:"60vw", height:"28vw", paddingRight:"0px"}}/>
+                        <img src={cover} style={{marginLeft: "0*27vw", width:"100vw", height:"28vw", paddingRight:"0px"}}/>
+
 
                     </Col>
 
