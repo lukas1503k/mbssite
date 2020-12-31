@@ -4,6 +4,8 @@ import {Container, Row, Col } from 'reactstrap';
 import Heading from "./Heading";
 import Footer from "./Footer";
 import healthCarePhoto from "../images/istockphoto-1182616138-2048x2048.jpg";
+import {Player} from "video-react";
+import videoPreview from "../videos/Medical buddy solutions.mp4";
 class OurMission extends Component {
     render() {
         return (
@@ -15,6 +17,11 @@ class OurMission extends Component {
                         <h1 style={{paddingLeft:"8vw", fontSize: "4vw"}}>
                             Our Mission
                         </h1>
+                        <center>
+                        <div style={{textAlign:"center", width:"50vw"}}>
+                         <Player src={videoPreview}/>
+                        </div>
+                        </center>
                         <p style={{paddingLeft:"8vw" , fontSize: "2vw", color: "#8514a7"}}>
                             Medical Buddy Solutions comes from the recognition for the need for a system like this. Our first hand experience in health care has shown that people don't know all that they should about their health. Our app hopes to solve this problem with our simple design that allows you to track every detail about your health.
                         </p>
@@ -32,6 +39,7 @@ class OurMission extends Component {
 
                  <br/>
                  <br/>
+                 <Footer/>
             </Container>
         );
     }

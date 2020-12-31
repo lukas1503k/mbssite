@@ -6,13 +6,16 @@ import "../Home.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import QRcode from "../images/istockphoto-910737126-1024x1024.jpg"
 import healthWealth from "../images/istockphoto-1062274514-1024x1024.jpg"
-import videoPreview from "../images/Capture.PNG"
+import videoPreview from "../videos/Medical buddy solutions.mp4"
 import paramedicPhoto from "../images/istockphoto-1131889468-1024x1024.jpg"
 import techPhoto from "../images/istockphoto-588366224-1024x1024.jpg"
 import {Container, Row, Col } from 'reactstrap';
 import lockPhoto from "../images/istockphoto-913016600-1024x1024.jpg"
 import healthCarePhoto from "../images/istockphoto-1182616138-2048x2048.jpg"
-import cover from "../images/Frame 1.png"
+import cover from "../images/Frame 2.png"
+
+import { Player } from 'video-react';
+
 
 import Footer from "./Footer";
 class Home extends Component {
@@ -22,18 +25,20 @@ class Home extends Component {
 
             <Heading/>
 
-                <Row  style ={{width:"100%", marginTop: "7.08333vw",paddingBottom:"5vw" }}>
+                <Row style ={{width:"100%", backgroundColor:"#F8F8F8"}}>
 
-                    <Col>
+                    {/*<Col>
 
-                        <div id="healthBox" style={{width:"39vw", float:"left", paddingLeft:"2vw", marginTop:"20vw"}}>
-                            <h1 style = {{fontSize:"3vw", fontWeight:"bold"}}>Health at your fingertips</h1>
-                            <h2 style = {{fontSize:"2vw"}} id="h1Subtext">Your health is your wealth! Be connected to your heath information with a simple app! </h2>
+                        <div id="healthBox"
+                             style={{width: "39vw", float: "left", paddingLeft: "2vw", marginTop: "20vw"}}>
+                            <h1 style={{fontSize: "3vw", fontWeight: "bold"}}>Health at your fingertips</h1>
+                            <h2 style={{fontSize: "2vw"}} id="h1Subtext">Your health is your wealth! Be connected to
+                                your heath information with a simple app! </h2>
                         </div>
 
-                    </Col>
+                    </Col>*/}
                     <Col>
-                        <img src={cover} style={{marginLeft: "0*27vw", width:"100vw", height:"28vw", paddingRight:"0px"}}/>
+                        <img src={cover} style={{marginLeft: "0*27vw", width:"100vw", height:"43vw", paddingRight:"0px", paddingTop:"3vw"}}/>
 
 
                     </Col>
@@ -49,7 +54,7 @@ class Home extends Component {
                             Innovate your relationship with your health data</h1>
                         <br/>
                         <p style={{ fontSize: "2vw", color: "white"}}>
-                            Our mission is to help people become more interactive with their health information. By building your health journal you will have the ability to advocate for you and your families best health. With a background in private homecare it is evident that a better system was needed. We are striving to promote optimum wellness through an interactive organizational personal health journal. Our mission at Medical Buddy Solutions is to help others live their best life.
+                            The mission at Medical Buddy Solutions is to help people become more interactive with their health information. By building your health journal you will have the ability to advocate for you and your families best health. With a background in private homecare it is evident that a better system was needed. We are striving to promote optimum wellness through an interactive organizational personal health journal. Our mission at Medical Buddy Solutions is to help others live their best life.
                         </p>
                     </Col>
                     <Col style={{margin:"auto",textAlign:"center"}}>
@@ -62,21 +67,21 @@ class Home extends Component {
                 <Row style={{width:"100%", margin:"0px",paddingBottom:"2vw", backgroundColor:"#5F0E78"}}>
 
                     <Col style={{textAlign:"center", paddingTop:"3vw"}}>
-                        <button style = {{fontSize: "2vw",width: "30vw", backgroundColor: "white", color:"#5F0E78"}}>
+                        <button style = {{fontSize: "2vw",width: "30vw", backgroundColor: "#f8f8f8", color:"#5F0E78"}}>
                             Download The App Now!
                         </button>
                     </Col>
 
                 </Row>
 
-                <Row xs="1" sm="2" style={{width: "99vw",margin:"0px", paddingTop: "0vw",marginTop: "6vw", marginBottom:"6vw", paddingBottom:"1vw"}}>
+                <Row xs="1" sm="2" style={{width: "99vw",margin:"0px", paddingTop: "6vw", paddingBottom:"7vw", backgroundColor: "#f8f8f8"}}>
                     <Col style={{paddingLeft:"3vw"}}>
 
                             <h1 style={{fontSize: "2.25vw", color:"#5F0E78", fontWeight:"bold"}}>
                                 Health Data On the Fly!
                             </h1>
                             <p style={{ fontSize: "2vw", color: "#5F0E78"}}>
-                                All of us at Medical Buddy Solutions realize the value of having the capability to
+                                Medical Buddy Solutions realizes the value of having the capability to
                                 collaborate with medial professionals when times call for important medical details.
                                 Being able to share with trusted partners is a recipe for your health success.
                             </p>
@@ -113,7 +118,7 @@ class Home extends Component {
 
                     </Col>
                     <Col style={{textAlign:"center",margin:"auto",paddingRight: "0px", paddingLeft: "0px"}}>
-                        <img style={{width: "32vw", paddingRight: "0px"}} src={videoPreview}/>
+                        <Player style={{width: "32vw", paddingRight: "0px"}} src={videoPreview}/>
                     </Col>
                 </Row>
 
@@ -144,7 +149,7 @@ class Home extends Component {
 
                         <Row style={{marginRight:"0px"}}>
                             <h2 id="h1Subtext" style={{fontSize: "2vw", lineHeight:"3vw", color:"white", padding:"4vw"}}>
-                                Our QR code technology allows for emergency responders to get the critical information
+                                QR code technology allows for emergency responders to get the critical information
                                 that they need. By scanning the QR code our health conditions, medications, allergies
                                 and much more will be made available to the responder.
                             </h2></Row>
@@ -175,24 +180,34 @@ class Home extends Component {
                 </Row>
 
 
+                {
+                    /*
+                    <Row xs="1" sm="2" style={{
+                        backgroundColor: "white",
+                        paddingTop: "5vw",
+                        paddingBottom: "5vw",
+                        width: "100%",
+                        margin: "0px"
+                    }}>
 
-                <Row xs="1" sm="2" style = {{ backgroundColor:"white", paddingTop:"5vw", paddingBottom:"5vw", width:"100%", margin:"0px"}}>
+                        <Col style={{textAlign: "center"}}>
+                            <img src={lockPhoto} style={{width: "25vw", height: "25vw", margin: "auto"}}/>
+                        </Col>
+                        <Col>
+                            <h1 style={{fontSize: "2.25vw", color: "#5F0E78", fontWeight: "bold"}}>
+                                Your Records are Safe
+                            </h1>
+                            <p id="h1Subtext" style={{fontSize: "2vw", color: "#5F0E78"}}>
+                                Ei ullum iudico sit. Ut graecis delicata sed, ad vis noster assueverit. An vim clita
+                                sanctus, eam munere percipit mediocritatem ne, an illud iusto mnesarchum pri. Est
+                                tacimates
+                                recusabo et, mutat delenit eu mei, nonumy suscipit rationibus at qui. In usu enim ferri
+                                graecis, nemore scripta in mei.
+                            </p>
+                        </Col>
+                    </Row>
+                    */}
 
-                    <Col style={{textAlign:"center"}}>
-                        <img src={lockPhoto} style={{width: "25vw", height: "25vw", margin: "auto"}}/>
-                    </Col>
-                    <Col>
-                        <h1 style={{fontSize: "2.25vw", color:"#5F0E78", fontWeight:"bold"}}>
-                            Your Records are Safe
-                        </h1>
-                        <p id="h1Subtext" style={{fontSize: "2vw", color:"#5F0E78"}}>
-                            Ei ullum iudico sit. Ut graecis delicata sed, ad vis noster assueverit. An vim clita
-                            sanctus, eam munere percipit mediocritatem ne, an illud iusto mnesarchum pri. Est tacimates
-                            recusabo et, mutat delenit eu mei, nonumy suscipit rationibus at qui. In usu enim ferri
-                            graecis, nemore scripta in mei.
-                        </p>
-                    </Col>
-                </Row>
                 <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"#5F0E78",gridAutoFlow: "row"}}>
                     <Col style = {{}}>
 
@@ -201,7 +216,7 @@ class Home extends Component {
                         </h1>
                         <br/>
                         <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
-                            Many people neglect their health in their busy lives. With our app we make it easy to track your appointments and record details regarding your health. Your health is your wealth, protect the most valuable thing you own with Medical Buddy Solutions.
+                            Many people neglect their health in their busy lives. With our app, we make it easy to track your appointments and record details regarding your health. Your health is your wealth, protect the most valuable thing you own with Medical Buddy Solutions.
                         </h2>
                        <br/>
 
@@ -215,7 +230,7 @@ class Home extends Component {
 
                 </Row>
 
-                <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"white",gridAutoFlow: "row"}}>
+                <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"#f8f8f8",gridAutoFlow: "row"}}>
                     <Col style = {{textAlign: "center", margin: "auto"}}>
                         <img src={QRcode} style={{height:"30vw"}}/>
                     </Col>
@@ -230,12 +245,13 @@ class Home extends Component {
                             Have you ever needed to get some information about your medical condition and didn’t know where to even look to find it? What’s your blood type? What earlier conditions have you had that may affect your current health? If you are one of the many that need to have access to your medical records, we have the perfect solution for you.
                         </h2>
                         <br/>
-                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "#5F0E78"}} id="h1Subtext">
-                            Introducing Medical Buddy Solutions. You can now record all of your medical information on a single app, then access it anytime and anywhere with a simple QR code. With this QR code you will have your information readily available in medical emergencies or when need information for your health insurance.
+                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "#5f0e78"}} id="h1Subtext">
+                            Introducing Medical Buddy Solutions. You can now record all of your medical information on a single app, then access it anytime and anywhere with a simple QR code. With this QR code you will have your information available to your trusted health partners.
                         </h2>
 
                     </Col>
                 </Row>
+                <Footer/>
 
             </div>
 

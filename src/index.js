@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import OurApp from "./components/Our App";
 import MyIllnessPageMobile from "./components/MyIllnessPageMobile";
 //import OurApp from "./components/Our App";
+import "video-react/dist/video-react.css";
 import "../src/stylesheets/wrapperStyling.css"
 import OurApp from "./components/Our App";
 import FaQs from "./components/FAQs";

@@ -64,6 +64,17 @@ class Appointments extends Component {
 
                                 </div>
                             </li>
+                            {/*<li>
+                                <div>
+                                    <a>
+                                        Appointment Recording:
+                                        <input
+                                            placeholder="Doctor told me that my reaction to the medicine was normal, it's not something I should be worried about"
+                                            disabled={true}/>
+                                    </a>
+
+                                </div>
+                            </li>*/}
                         </ul>
                     </Col>
                 </Row>

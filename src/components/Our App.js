@@ -9,6 +9,7 @@ import Lock from "../images/lock.png"
 import App from "../App";
 import MyIllnessPage from "./MyIllnessPage";
 import MyIllnessPageMobile from "./MyIllnessPageMobile"
+import Footer from "./Footer";
 
 class OurApp extends Component {
     render() {
@@ -26,8 +27,11 @@ class OurApp extends Component {
                          <h1 style={{paddingLeft: "5.41666vw" , fontSize: "3vw"}}>
                              My Emergency Page
                          </h1>
+                        <h2 style={{paddingLeft: "5.41666vw" , fontSize: "1.5vw", color:"#8514a7"}}>
+                            M.E.D.I (Medical Emergency Data Information)
+                        </h2>
                         <br/>
-                        <p style={{paddingLeft: "5.41666vw", fontSize: "2vw", color:"#8514a7"}}>
+                        <p style={{paddingLeft: "5.41666vw", fontSize: "2vw", width:"18em", color:"#8514a7"}}>
                             Your emergency page serves as a quick view into your medical history. In case of an emergency, first responders can scan your QR code and get the information they need to help you.
                         </p>
                     </Col>
@@ -60,7 +64,7 @@ class OurApp extends Component {
                             My Contact Page
                         </h1>
                         <p style={{paddingLeft: "10vw" , fontSize: "2vw", color:"white"}}>
-                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With out app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider recommends you.                        </p>
+                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With our app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider recommends you.                        </p>
                     </Row>
                     <Row style={{ paddingTop:"5vw", backgroundColor:"#5F0E78", color:"white"}}>
                         <h1 style={{paddingLeft: "10vw" , fontSize: "3vw", color:"white", textAlign: "center"}}> Try It Out Here</h1>
@@ -85,7 +89,7 @@ class OurApp extends Component {
                         <img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "28.83333333vw"}}src ={Lock}/>
                     </Col>
                 </Row>
-
+                <Footer/>
             </div>
         );
     }
