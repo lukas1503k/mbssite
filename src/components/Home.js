@@ -208,14 +208,14 @@ class Home extends Component {
                     </Row>
                     */}
 
-                <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"#5F0E78",gridAutoFlow: "row"}}>
+                <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"#F8F8F8",gridAutoFlow: "row"}}>
                     <Col style = {{}}>
 
-                        <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "white", fontWeight: "bold"}}>
+                        <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "#5F0E78", fontWeight: "bold"}}>
                             Protect What Is Most Valuable
                         </h1>
                         <br/>
-                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "white"}} id="h1Subtext">
+                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "#5F0E78"}} id="h1Subtext">
                             Many people neglect their health in their busy lives. With our app, we make it easy to track your appointments and record details regarding your health. Your health is your wealth, protect the most valuable thing you own with Medical Buddy Solutions.
                         </h2>
                        <br/>
@@ -230,22 +230,22 @@ class Home extends Component {
 
                 </Row>
 
-                <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"#f8f8f8",gridAutoFlow: "row"}}>
+                <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"#5F0E78",gridAutoFlow: "row"}}>
                     <Col style = {{textAlign: "center", margin: "auto"}}>
                         <img src={QRcode} style={{height:"30vw"}}/>
                     </Col>
 
                     <Col style = {{}}>
 
-                        <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "#5F0E78", fontWeight: "bold"}}>
+                        <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "#F8F8F8", fontWeight: "bold"}}>
                             All Your Health Records Available in One Place!
                         </h1>
                         <br/>
-                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "#5F0E78"}} id="h1Subtext">
+                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "#F8F8F8"}} id="h1Subtext">
                             Have you ever needed to get some information about your medical condition and didn’t know where to even look to find it? What’s your blood type? What earlier conditions have you had that may affect your current health? If you are one of the many that need to have access to your medical records, we have the perfect solution for you.
                         </h2>
                         <br/>
-                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "#5f0e78"}} id="h1Subtext">
+                        <h2 style = {{fontSize: "2vw", lineHeight:"3vw", color: "#F8F8F8"}} id="h1Subtext">
                             Introducing Medical Buddy Solutions. You can now record all of your medical information on a single app, then access it anytime and anywhere with a simple QR code. With this QR code you will have your information available to your trusted health partners.
                         </h2>
 

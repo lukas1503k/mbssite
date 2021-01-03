@@ -31,10 +31,19 @@ class OurMission extends Component {
                         </p>
                         <br/>
                         <p style={{paddingLeft:"8vw" , fontSize: "2vw", color: "#8514a7"}}>
-                            Adaptibility to our healthcare systems is necessary, let MedicalBuddy Solutions be your strength to advocate and document your unique health details. Take charge of your health and your future join the MedicalBuddy Solutions community.
+                            Adaptability to our healthcare systems is necessary, let MedicalBuddy Solutions be your strength to advocate and document your unique health details. Take charge of your health and your future join the MedicalBuddy Solutions community.
                         </p>
 
                 </Col>
+                </Row>
+                <Row style={{width:"100%", margin:"0px",paddingBottom:"2vw", backgroundColor:"white"}}>
+
+                    <Col style={{textAlign:"center", paddingTop:"3vw"}}>
+                        <button style = {{fontSize: "2vw",width: "30vw", backgroundColor: "#5F0E78", color:"#f8f8f8"}}>
+                            Download The App Now!
+                        </button>
+                    </Col>
+
                 </Row>
 
                  <br/>

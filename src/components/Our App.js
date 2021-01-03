@@ -74,7 +74,15 @@ class OurApp extends Component {
                     </Row>
                     </>
                 }
+                <Row style={{width:"100%", margin:"0px",paddingBottom:"2vw", backgroundColor:"#5F0E78"}}>
 
+                    <Col style={{textAlign:"center", paddingTop:"3vw"}}>
+                        <button style = {{fontSize: "2vw",width: "30vw", backgroundColor: "#f8f8f8", color:"#5F0E78"}}>
+                            Download The App Now!
+                        </button>
+                    </Col>
+
+                </Row>
                 <Row style={{width:"99vw", paddingTop:"5vw"}}>
                     <Col style = {{width:"51.833333vw"}}>
                         <h1 style={{paddingLeft: "5.41666vw", fontSize: "3vw", width: "51.8333vw"}}>
