@@ -6,13 +6,14 @@ import "../Home.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import QRcode from "../images/istockphoto-910737126-1024x1024.jpg"
 import healthWealth from "../images/istockphoto-1062274514-1024x1024.jpg"
-import videoPreview from "../videos/Medical buddy solutions.mp4"
+import video from "../videos/Medical buddy solutions.mp4"
 import paramedicPhoto from "../images/istockphoto-1131889468-1024x1024.jpg"
 import techPhoto from "../images/istockphoto-588366224-1024x1024.jpg"
 import {Container, Row, Col } from 'reactstrap';
 import lockPhoto from "../images/istockphoto-913016600-1024x1024.jpg"
 import healthCarePhoto from "../images/istockphoto-1182616138-2048x2048.jpg"
 import cover from "../images/Frame 2.png"
+import videoPreview from "../images/Capture.jpg";
 
 import { Player } from 'video-react';
 
@@ -25,7 +26,7 @@ class Home extends Component {
 
             <Heading/>
 
-                <Row style ={{width:"100%", backgroundColor:"#F8F8F8"}}>
+                <Row style ={{ backgroundColor:"#F8F8F8", marginLeft:"0px"}}>
 
                     {/*<Col>
 
@@ -38,7 +39,7 @@ class Home extends Component {
 
                     </Col>*/}
                     <Col>
-                        <img src={cover} style={{marginLeft: "0*27vw", width:"100vw", height:"43vw", paddingRight:"0px", paddingTop:"3vw"}}/>
+                        <img src={cover} style={{marginLeft: "0*27vw", height:"43vw", paddingRight:"0px", paddingTop:"3vw"}}/>
 
 
                     </Col>
@@ -48,7 +49,7 @@ class Home extends Component {
 
 
                 <Row xs="1" sm="2"  style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingTop:"3vw", backgroundColor:"#5F0E78"}}>
-                    <Col style={{paddingLeft:"3vw",}}>
+                    <Col style={{paddingLeft:"3vw",textAlign:"center"}}>
 
                         <h1 style={{fontSize: "2vw", color:"white", fontWeight:"bold"}}>
                             Innovate your relationship with your health data</h1>
@@ -74,12 +75,14 @@ class Home extends Component {
 
                 </Row>
 
-                <Row xs="1" sm="2" style={{width: "99vw",margin:"0px", paddingTop: "6vw", paddingBottom:"7vw", backgroundColor: "#f8f8f8"}}>
-                    <Col style={{paddingLeft:"3vw"}}>
+                <Row xs="1" sm="2" style={{margin:"0px", paddingTop: "6vw", paddingBottom:"7vw", backgroundColor: "#f8f8f8"}}>
+                    <Col style={{paddingLeft:"3vw", textAlign:"center"}}>
 
                             <h1 style={{fontSize: "2.25vw", color:"#5F0E78", fontWeight:"bold"}}>
                                 Health Data On the Fly!
                             </h1>
+                            <br/>
+                            <br/>
                             <p style={{ fontSize: "2vw", color: "#5F0E78"}}>
                                 Medical Buddy Solutions realizes the value of having the capability to
                                 collaborate with medial professionals when times call for important medical details.
@@ -117,8 +120,8 @@ class Home extends Component {
                                 </div>*/}
 
                     </Col>
-                    <Col style={{textAlign:"center",margin:"auto",paddingRight: "0px", paddingLeft: "0px"}}>
-                        <Player style={{width: "32vw", paddingRight: "0px"}} src={videoPreview}/>
+                    <Col style={{textAlign:"center",margin:"auto",paddingRight: "10px", paddingLeft: "10px"}}>
+                        <Player style={{width: "25vw", paddingRight: "0px"}} src={video} poster ={videoPreview}/>
                     </Col>
                 </Row>
 
@@ -209,7 +212,7 @@ class Home extends Component {
                     */}
 
                 <Row xs="1" sm="2" style ={{width:"100%", paddingRight:"0px", margin:"0px",paddingBottom:"3vw",paddingTop:"3vw", backgroundColor:"#F8F8F8",gridAutoFlow: "row"}}>
-                    <Col style = {{}}>
+                    <Col style = {{paddingLeft:"3vw", textAlign:"center"}}>
 
                         <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "#5F0E78", fontWeight: "bold"}}>
                             Protect What Is Most Valuable
@@ -224,7 +227,7 @@ class Home extends Component {
                     </Col>
 
                     <Col style = {{textAlign: "center", margin: "auto"}}>
-                        <img src={healthWealth} style={{height:"30vw", width:"100%"}}/>
+                        <img src={healthWealth} style={{height:"30vw", width: "40vw"}}/>
                     </Col>
 
 
@@ -235,7 +238,7 @@ class Home extends Component {
                         <img src={QRcode} style={{height:"30vw"}}/>
                     </Col>
 
-                    <Col style = {{}}>
+                    <Col style = {{textAlign:"center"}}>
 
                         <h1 style = {{fontSize:"2vw",marginTop:"5vw", color: "#F8F8F8", fontWeight: "bold"}}>
                             All Your Health Records Available in One Place!

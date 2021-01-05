@@ -64,6 +64,11 @@ class AppointmentsMobile extends Component {
 
                                 </div>
                             </li>
+                            <li>
+                                <button style={{height: "6vw", padding:"0px", fontSize: "3vw"}}>
+                                    Begin Appointment Recording
+                                </button>
+                            </li>
                         </ul>
                     </Col>
                 </Row>

@@ -10,7 +10,7 @@ class Footer extends Component {
         let liStyle ={display: "inline", paddingLeft: "3vw", color: "white", font:"Roboto", style:"normal", weight:"400", fontSize:"1.25vw"}
 
         return (
-            <div style={{backgroundColor:"#5F0E78", width:"99vw"}}>
+            <div style={{backgroundColor:"#5F0E78",}}>
 
                 <Row style={{paddingTop:"3.333vw"}}>
                     <Col style={{

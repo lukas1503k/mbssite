@@ -14,7 +14,7 @@ class Notes extends Component {
                 </Row>
                 <Row>
                     <Col>
-                       <button style={{backgroundColor: "#770E49", padding:"0px", color:"white", borderRadius:"0px",height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>x </button> <input style ={{width: "16vw", height: "8vw"}} placeholder="" disabled = {true}/>
+                       <button style={{backgroundColor: "#770E49", display: "inline-flex", alignItems: "center", color:"white", borderRadius:"0px",height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>x </button> <input style ={{width: "16vw", height: "8vw"}} placeholder="" disabled = {true}/>
                     </Col>
                 </Row>
 

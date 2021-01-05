@@ -44,7 +44,7 @@ class Doctors extends Component {
                         </h2>
                     </Col>
                     <Col>
-                        <button onClick={this.addNewDoctor} style={{height: "1.5vw", width:"5.25vw", padding:"0px"}}>
+                        <button onClick={this.addNewDoctor} style={{height: "1.75vw", width:"5.25vw", padding:"0px"}}>
                             Add
                         </button>
                     </Col>
@@ -56,7 +56,7 @@ class Doctors extends Component {
 
                             <Col>
                                 <p style={{fontWeight: "bold"}}>
-                                    <button style={{backgroundColor: "#770E49", padding:"0px", color:"white", borderRadius:"0px", height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>
+                                    <button style={{backgroundColor: "#770E49", display: "inline-flex", alignItems: "center", color:"white", borderRadius:"0px", height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>
                                         x
                                     </button>
 

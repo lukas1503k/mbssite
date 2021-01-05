@@ -12,7 +12,7 @@ class Medications extends Component {
                         </h2>
                     </Col>
                     <Col>
-                        <button style={{height: "1.5vw", width:"5.25vw", padding:"0px"}}>
+                        <button style={{height: "1.75vw", width:"5.25vw", padding:"0px"}}>
                             Add
                         </button>
                     </Col>
@@ -23,7 +23,7 @@ class Medications extends Component {
                            
                            <Col>
                        <p style={{fontWeight:"bold"}}>
-                           <button style={{backgroundColor: "#770E49", color:"white", borderRadius:"0px", padding:"0px",height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>
+                           <button style={{backgroundColor: "#770E49", color:"white", borderRadius:"0px",  display: "inline-flex", alignItems: "center",height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>
                                x
                            </button>
 

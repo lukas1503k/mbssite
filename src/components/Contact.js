@@ -28,6 +28,9 @@ class Contact extends Component {
                 <button style={{marginLeft: "46vw",fontSize:"2vw",marginTop:"2vw",width:"10vw",fontColor:"#FFFFFFFFF"}}>
                     Submit
                 </button>
+                <br/>
+                <br/>
+                <br/>
                     <Footer/>
             </Container>
             );

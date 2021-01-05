@@ -24,8 +24,7 @@ class OurApp extends Component {
             </Row>
                 <Row >
                     <Col style = {{width:"47.5833333vw"}}>
-                         <h1 style={{paddingLeft: "5.41666vw" , fontSize: "3vw"}}>
-                             My Emergency Page
+                         <h1 style={{paddingLeft: "5.41666vw" , fontSize: "3vw"}}>My Emergency Page
                          </h1>
                         <h2 style={{paddingLeft: "5.41666vw" , fontSize: "1.5vw", color:"#8514a7"}}>
                             M.E.D.I (Medical Emergency Data Information)
@@ -36,7 +35,10 @@ class OurApp extends Component {
                         </p>
                     </Col>
                     <Col style ={{width: "28.83333333vw", height: "44.8333vw"}}>
-                        <img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw"}}src ={AppScreen}/>
+                        <img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "44.8333vw", paddingBottom: "10vw"}}src ={AppScreen}/>
+                        <br/>
+                        <br/>
+                        <br/>
 
                     </Col>
                 </Row>
@@ -47,8 +49,8 @@ class OurApp extends Component {
                             My Illness Page
                         </h1>
                         <br/>
-                        <p style={{paddingLeft: "5.41666vw" , fontSize: "2vw", color:"white"}}>
-                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With our app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider tells you.
+                        <p style={{paddingLeft: "5.41666vw" ,width:"18em", fontSize: "2vw", color:"white"}}>
+                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With the app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider tells you.
                         </p>
                     </Col>
                     <Col style ={{width: "28.83333333vw", height: "44.8333vw"}}>
@@ -61,10 +63,10 @@ class OurApp extends Component {
                     <>
                     <Row style={{ paddingTop:"5vw", backgroundColor:"#5F0E78", color:"white", marginRight:"0px"}}>
                         <h1 style={{paddingLeft: "10vw", fontSize: "3vw", width: "51.8333vw", color:"white"}}>
-                            My Contact Page
+                            My Illness Page
                         </h1>
-                        <p style={{paddingLeft: "10vw" , fontSize: "2vw", color:"white"}}>
-                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With our app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider recommends you.                        </p>
+                        <p style={{paddingLeft: "10vw" , fontSize: "2vw", width:"18em", color:"white"}}>
+                            Your illness page allows you to keep track of your illnessess, medications and your appointments. With the app you can take notes about what happens at your appointment, so you can always remember exactly what your health care provider recommends you.                        </p>
                     </Row>
                     <Row style={{ paddingTop:"5vw", backgroundColor:"#5F0E78", color:"white"}}>
                         <h1 style={{paddingLeft: "10vw" , fontSize: "3vw", color:"white", textAlign: "center"}}> Try It Out Here</h1>
@@ -94,7 +96,7 @@ class OurApp extends Component {
                         </p>
                     </Col>
                     <Col style ={{width: "28.83333333vw", height: "44.8333vw"}}>
-                        <img style = {{float:"right", paddingRight:"7.75vw", width: "28.83333333vw", height: "28.83333333vw"}}src ={Lock}/>
+                        <img style = {{float:"right", paddingRight:"7.75vw", }}src ={Lock}/>
                     </Col>
                 </Row>
                 <Footer/>

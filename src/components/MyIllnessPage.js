@@ -12,7 +12,7 @@ import Doctors from "./Doctors";
 import Reminders from "./Reminders";
 import Diagnosis from "./Diagnosis";
 import Notes from "./Notes";
-import Logo from "../images/Rectangle 1.png"
+import Logo from "../images/AppLogo.png"
 class MyIllnessPage extends Component {
     //8.417836%
 

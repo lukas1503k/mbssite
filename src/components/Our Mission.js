@@ -5,13 +5,15 @@ import Heading from "./Heading";
 import Footer from "./Footer";
 import healthCarePhoto from "../images/istockphoto-1182616138-2048x2048.jpg";
 import {Player} from "video-react";
-import videoPreview from "../videos/Medical buddy solutions.mp4";
+import video from "../videos/Medical buddy solutions.mp4";
+import videoPreview from "../images/Capture.jpg";
+
 class OurMission extends Component {
     render() {
         return (
             <Container id = "siteContainer">
                 <Heading/>
-                <Row style ={{width:"100vw"}}>
+                <Row style ={{}}>
                 <Col style={{paddingTop: "2vw"}}>
 
                         <h1 style={{paddingLeft:"8vw", fontSize: "4vw"}}>
@@ -19,7 +21,7 @@ class OurMission extends Component {
                         </h1>
                         <center>
                         <div style={{textAlign:"center", width:"50vw"}}>
-                         <Player src={videoPreview}/>
+                         <Player src={video} poster = {videoPreview}/>
                         </div>
                         </center>
                         <p style={{paddingLeft:"8vw" , fontSize: "2vw", color: "#8514a7"}}>

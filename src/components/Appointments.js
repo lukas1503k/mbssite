@@ -12,7 +12,7 @@ class Appointments extends Component {
                         </h2>
                     </Col>
                     <Col>
-                        <button style={{height: "1.5vw", width:"5.25vw", padding:"0px"}}>
+                        <button style={{height: "1.75vw", width:"5.25vw", padding:"0px"}}>
                             Add
                         </button>
                     </Col>
@@ -23,7 +23,7 @@ class Appointments extends Component {
 
                             <Col>
                                 <p>
-                                    <button style={{backgroundColor: "#770E49", padding:"0px", color:"white", borderRadius:"0px", height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>
+                                    <button style={{backgroundColor: "#770E49", display: "inline-flex", alignItems: "center", color:"white", borderRadius:"0px", height: "1.5vw", width:"1.5vw", marginRight:"0.4vw" }}>
                                         x
                                     </button>
 
@@ -63,6 +63,11 @@ class Appointments extends Component {
                                     </a>
 
                                 </div>
+                            </li>
+                            <li>
+                                <button style={{height: "1.75vw",  padding:"0px"}}>
+                                    Begin Appointment Recording
+                                </button>
                             </li>
                             {/*<li>
                                 <div>
