@@ -20,11 +20,13 @@ class OurMission extends Component {
                             Our Mission
                         </h1>
                         <center>
-                        <div style={{textAlign:"center", width:"50vw"}}>
+                        <div style={{textAlign:"center", width:"50vw",}}>
                          <Player src={video} poster = {videoPreview}/>
                         </div>
+                            <br/>
+                            <br/>
                         </center>
-                        <p style={{paddingLeft:"8vw" , fontSize: "2vw", color: "#8514a7"}}>
+                        <p style={{paddingLeft:"8vw" , paddingTop:"3vw", fontSize: "2vw", color: "#8514a7"}}>
                             Medical Buddy Solutions comes from the recognition for the need for a system like this. Our first hand experience in health care has shown that people don't know all that they should about their health. Our app hopes to solve this problem with our simple design that allows you to track every detail about your health.
                         </p>
                         <br/>
