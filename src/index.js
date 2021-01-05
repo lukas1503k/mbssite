@@ -13,12 +13,15 @@ import "video-react/dist/video-react.css";
 import "../src/stylesheets/wrapperStyling.css"
 import OurApp from "./components/Our App";
 import FaQs from "./components/FAQs";
+import { ReactComponent as Logo } from './logo.svg';
+
 //
 import { BrowserRouter, Route, Switch} from "react-router-dom";
 import OurMission from "./components/Our Mission";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 const routing = (
+    <div>
     <BrowserRouter forceRefresh={true}>
         <Switch>
 
@@ -33,6 +36,7 @@ const routing = (
 
         </Switch>
     </BrowserRouter>
+    </div>
 )
 
 ReactDOM.render(
