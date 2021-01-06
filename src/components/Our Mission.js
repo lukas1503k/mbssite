@@ -27,7 +27,7 @@ class OurMission extends Component {
                             <br/>
                         </center>
                         <p style={{paddingLeft:"8vw" , paddingTop:"3vw", fontSize: "2vw", color: "#8514a7"}}>
-                            Medical Buddy Solutions comes from the recognition for the need for a system like this. Our first hand experience in health care has shown that people don't know all that they should about their health. Our app hopes to solve this problem with our simple design that allows you to track every detail about your health.
+                            Medical Buddy Solutions inception came from working in the community with all varieties of clients. We recognized that our clients did not have access to or recall basic health information. Our app will enable users to track health details.
                         </p>
                         <br/>
                         <p style={{paddingLeft:"8vw" , fontSize: "2vw", color: "#8514a7"}}>
