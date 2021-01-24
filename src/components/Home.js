@@ -65,14 +65,12 @@ class Home extends Component {
 
                             <h1 style={{fontSize: "5vw", color: "white", fontWeight: "bold"}}>
                                 Innovate your relationship with your health data</h1>
-                            <br/>
                             <p style={{fontSize: "4vw", color: "white"}}>
                                 The mission at Medical Buddy Solutions is to help people become more interactive with
                                 their health information. By building your health journal you will have the ability to
                                 advocate for you and your families best health. With a background in private homecare it
                                 is evident that a better system was needed. We are striving to promote optimum wellness
-                                through an interactive organizational personal health journal. Our mission at Medical
-                                Buddy Solutions is to help others live their best life.
+                                through an interactive organizational personal health journal. Make Medical Buddy Solutions your "Medical Digital Asset"!
                             </p>
                         </Col>
                         <Col style={{margin: "auto", textAlign: "center"}}>
@@ -100,8 +98,7 @@ class Home extends Component {
                             <h1 style={{fontSize: "5vw", color: "#5F0E78", fontWeight: "bold"}}>
                                 Health Data On the Fly!
                             </h1>
-                            <br/>
-                            <br/>
+
                             <p style={{fontSize: "4vw", color: "#5F0E78"}}>
                                 Medical Buddy Solutions realizes the value of having the capability to
                                 collaborate with medial professionals when times call for important medical details.
@@ -152,31 +149,30 @@ class Home extends Component {
                         textAlign: "center",
                         alignItems: "center",
                         justifyContent: "centre", backgroundColor: "#5F0E78",
-                        paddingTop: "3vw", paddingBottom: "1vw"
+                        paddingTop: "3vw", paddingBottom: "1vw", marginLeft:"0px"
                     }}>
-                        <Col style={{paddingRight: "1vw", paddingLeft: "1vw"}}>
-                            <Row style={{marginRight: "0px"}}>
+                        <Col style={{textAlign: "center"}}>
+                            <Row style={{marginRight: "0px", marginLeft:"0px"}}>
                                 <div style={{textAlign: "center", alignItems: "center", width: "100%"}}>
-                                    <h1 style={{fontSize: "3vw", color: "white"}}>
+                                    <h1 style={{fontSize: "5vw", color: "white"}}>
                                         There when you need it
                                     </h1>
                                 </div>
                             </Row>
-                            <Row style={{marginRight: "0px"}}>
+                            <Row style={{marginRight: "0px", marginLeft:"0px"}}>
                                 <div style={{
                                     textAlign: "center",
                                     alignItems: "center",
                                     width: "100%",
                                     paddingTop: "3vw"
                                 }}>
-                                    <img src={paramedicPhoto} style={{width: "25vw"}}/>
+                                    <img src={paramedicPhoto} style={{width: "75vw"}}/>
                                 </div>
                             </Row>
-                            <br/>
 
-                            <Row style={{marginRight: "0px"}}>
+                            <Row style={{marginRight: "0px", textAlign:"center", marginLeft:"0px"}}>
                                 <h2 id="h1Subtext"
-                                    style={{fontSize: "2vw", lineHeight: "3vw", color: "white", padding: "4vw"}}>
+                                    style={{fontSize: "4vw",  color: "white", padding: "4vw"}}>
                                     QR code technology allows for emergency responders to get the critical information
                                     that they need. By scanning the QR code our health conditions, medications,
                                     allergies
@@ -185,33 +181,32 @@ class Home extends Component {
                         </Col>
 
 
-                        <Col style={{paddingRight: "1vw", paddingLeft: "1vw"}}>
-                            <Row style={{marginRight: "0px"}}>
+                        <Col style={{   textAlign: "center"}}>
+                            <Row style={{marginRight: "0px", marginLeft:"0px"}}>
                                 <div style={{
                                     textAlign: "center",
                                     alignItems: "center",
                                     width: "100%",
                                     fontWeight: "bold"
                                 }}>
-                                    <h1 style={{fontSize: "3vw", color: "white"}}>
+                                    <h1 style={{fontSize: "5vw", color: "white"}}>
                                         Easy to Use
                                     </h1>
                                 </div>
                             </Row>
-                            <Row style={{marginRight: "0px"}}>
+                            <Row style={{marginRight: "0px", marginLeft:"0px"}}>
                                 <div style={{
                                     textAlign: "center",
                                     alignItems: "center",
                                     width: "100%",
                                     paddingTop: "3vw"
                                 }}>
-                                    <img src={techPhoto} style={{width: "25vw"}}/>
+                                    <img src={techPhoto} style={{width: "75vw", margin:"auto"}}/>
                                 </div>
                             </Row>
-                            <br/>
-                            <Row style={{marginRight: "0px"}}>
+                            <Row style={{marginRight: "0px", textAlign:"center", marginLeft:"0px"}}>
                                 <h2 id="h1Subtext"
-                                    style={{fontSize: "2vw", lineHeight: "3vw", color: "white", padding: "4vw"}}>
+                                    style={{fontSize: "4vw",  color: "white", padding: "4vw"}}>
                                     Our intuitive app makes it easy to update your responder page and medical journal.
                                     With these two tools, you can manage and view your medical history with the click of
                                     a button. You are in control,
@@ -257,26 +252,24 @@ class Home extends Component {
                         paddingBottom: "3vw",
                         paddingTop: "3vw",
                         backgroundColor: "#F8F8F8",
-                        gridAutoFlow: "row"
+                        gridAutoFlow: "row", marginLeft:"0px"
                     }}>
-                        <Col style={{paddingLeft: "3vw", textAlign: "center"}}>
+                        <Col style={{paddingLeft: "5vw", textAlign: "center"}}>
 
-                            <h1 style={{fontSize: "2vw", marginTop: "5vw", color: "#5F0E78", fontWeight: "bold"}}>
+                            <h1 style={{fontSize: "5vw", color: "#5F0E78", fontWeight: "bold"}}>
                                 Protect What Is Most Valuable
                             </h1>
-                            <br/>
-                            <h2 style={{fontSize: "2vw", lineHeight: "3vw", color: "#5F0E78"}} id="h1Subtext">
+                            <h2 style={{fontSize: "4vw",  color: "#5F0E78"}} id="h1Subtext">
                                 Many people neglect their health in their busy lives. With our app, we make it easy to
                                 track your appointments and record details regarding your health. Your health is your
                                 wealth, protect the most valuable thing you own with Medical Buddy Solutions.
                             </h2>
-                            <br/>
 
 
                         </Col>
 
                         <Col style={{textAlign: "center", margin: "auto"}}>
-                            <img src={healthWealth} style={{height: "30vw", width: "40vw"}}/>
+                            <img src={healthWealth} style={{height: "60vw", width: "80vw"}}/>
                         </Col>
 
 
@@ -292,23 +285,22 @@ class Home extends Component {
                         gridAutoFlow: "row"
                     }}>
                         <Col style={{textAlign: "center", margin: "auto"}}>
-                            <img src={QRcode} style={{height: "30vw"}}/>
+                            <img src={QRcode} style={{width: "75vw"}}/>
                         </Col>
 
                         <Col style={{textAlign: "center"}}>
 
-                            <h1 style={{fontSize: "2vw", marginTop: "5vw", color: "#F8F8F8", fontWeight: "bold"}}>
+                            <h1 style={{fontSize: "5vw", marginTop: "5vw", color: "#F8F8F8", fontWeight: "bold"}}>
                                 All Your Health Records Available in One Place!
                             </h1>
-                            <br/>
-                            <h2 style={{fontSize: "2vw", lineHeight: "3vw", color: "#F8F8F8"}} id="h1Subtext">
+
+                            <h2 style={{fontSize: "4vw",  color: "#F8F8F8"}} id="h1Subtext">
                                 Have you ever needed to get some information about your medical condition and didn’t
                                 know where to even look to find it? What’s your blood type? What earlier conditions have
                                 you had that may affect your current health? If you are one of the many that need to
                                 have access to your medical records, we have the perfect solution for you.
                             </h2>
-                            <br/>
-                            <h2 style={{fontSize: "2vw", lineHeight: "3vw", color: "#F8F8F8"}} id="h1Subtext">
+                            <h2 style={{fontSize: "4vw",  color: "#F8F8F8"}} id="h1Subtext">
                                 Introducing Medical Buddy Solutions. You can now record all of your medical information
                                 on a single app, then access it anytime and anywhere with a simple QR code. With this QR
                                 code you will have your information available to your trusted health partners.
@@ -364,8 +356,7 @@ class Home extends Component {
                                 their health information. By building your health journal you will have the ability to
                                 advocate for you and your families best health. With a background in private homecare it
                                 is evident that a better system was needed. We are striving to promote optimum wellness
-                                through an interactive organizational personal health journal. Our mission at Medical
-                                Buddy Solutions is to help others live their best life.
+                                through an interactive organizational personal health journal. Make Medical Buddy Solutions your "Medical Digital Asset"!
                             </p>
                         </Col>
                         <Col style={{margin: "auto", textAlign: "center"}}>

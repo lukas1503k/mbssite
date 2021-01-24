@@ -60,11 +60,11 @@ class MyIllnessPage extends Component {
 
         let rowStyle = {textAlign:"center", marginTop: "1vw",height:"8.8888888%",marinBottom:"1vw"};
         return (
-            <Container style = {{width: "95vw", height: "90vh", paddingLeft:"0vw", paddingRight:"0px", backgroundColor:"white",color:"black",}}>
+            <Container style = {{width: "95vw", height: "90vh", paddingLeft:"0vw", paddingRight:"0px", backgroundColor:"white",color:"black",borderColor:"black", borderStyle:"solid"}}>
                 <div id="heading" style={{backgroundColor:"#5F0E78", height:"15vw", position:"static"}}>
                     {/*<img style={{height: "100%"}} src={heading}/>*/}
                     <img style = {{height:"10vw", marginLeft: "15%", marginTop:"2vw" }}src={Logo} />
-                    <a style ={{marginLeft:"1em", marginTop:"6vw", fontSize: "3vw", color: "white" }}>
+                    <a style ={{marginLeft:"1em", marginTop:"6vw", fontSize: "5vw", color: "white" }}>
                         Medical Buddy Solutions
                     </a>
                 </div>
@@ -80,7 +80,7 @@ class MyIllnessPage extends Component {
                         </Col>
 
                        <Col style = {{margin:"auto"}}>
-                           <button style ={{width: "20vw", color: "#5F0E78", backgroundColor: "white", fontSize:"3vw", paddingLeft:"0px", marginLeft:"0px"}}>
+                           <button style ={{width: "20vw", color: "#5F0E78", backgroundColor: "white", fontSize:"3.5vw", paddingLeft:"0px", marginLeft:"0px"}}>
                                &#9660; Diabetes
                            </button>
                        </Col>

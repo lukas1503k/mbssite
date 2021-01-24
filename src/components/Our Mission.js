@@ -13,16 +13,60 @@ class OurMission extends Component {
         return (
             <Container id = "siteContainer">
                 <Heading/>
-                <Row style ={{}}>
-                <Col style={{paddingTop: "2vw"}}>
+
+                {window.innerWidth < 760 && <> <Row style ={{marginLeft:"0px"}}>
+                    <Col style={{paddingTop: "2vw"}}>
+
+                        <h1 style={{paddingLeft:"0vw", fontSize: "7vw"}}>
+                            Our Mission
+                        </h1>
+                        <center>
+                            <div style={{textAlign:"center", width:"75vw",}}>
+                                <Player src={video} poster = {videoPreview}/>
+                            </div>
+                            <br/>
+                        </center>
+                        <p style={{paddingLeft:"0vw" , paddingTop:"3vw", fontSize: "4vw", color: "#8514a7"}}>
+                            Medical Buddy Solutions inception came from working in the community with all varieties of clients. We recognized that our clients did not have access to or recall basic health information. Our app will enable users to track health details.
+                        </p>
+                        <br/>
+                        <p style={{paddingLeft:"0vw" , fontSize: "4vw", color: "#8514a7"}}>
+                            While health care reform will keep changing, we can all document, organize and track our own personal health information. Introducing an innovative process to enable you to keep your own health information details on hand. From families to singles, never has it been more important to document and keep track of your information.
+                        </p>
+                        <br/>
+                        <p style={{paddingLeft:"0vw" , fontSize: "4vw", color: "#8514a7"}}>
+                            Adaptability to our healthcare systems is necessary, let MedicalBuddy Solutions be your strength to advocate and document your unique health details. Take charge of your health and your future join the MedicalBuddy Solutions community.
+                        </p>
+
+                    </Col>
+                </Row>
+                <Row style={{width:"100%", margin:"0px",paddingBottom:"2vw", backgroundColor:"white"}}>
+
+                    <Col style={{textAlign:"center", paddingTop:"3vw"}}>
+                        <button style = {{fontSize: "5vw", width: "75vw", height: "10vw", backgroundColor: "#5F0E78", color: "#f8f8f8"}}>
+                            Download The App Now!
+                        </button>
+                    </Col>
+
+                </Row>
+
+                <br/>
+                <br/>
+                <Footer/>
+
+
+                    </>}
+
+                {window.innerWidth >= 760 && <><Row style ={{}}>
+                    <Col style={{paddingTop: "2vw"}}>
 
                         <h1 style={{paddingLeft:"8vw", fontSize: "4vw"}}>
                             Our Mission
                         </h1>
                         <center>
-                        <div style={{textAlign:"center", width:"50vw",}}>
-                         <Player src={video} poster = {videoPreview}/>
-                        </div>
+                            <div style={{textAlign:"center", width:"50vw",}}>
+                                <Player src={video} poster = {videoPreview}/>
+                            </div>
                             <br/>
                             <br/>
                         </center>
@@ -38,7 +82,7 @@ class OurMission extends Component {
                             Adaptability to our healthcare systems is necessary, let MedicalBuddy Solutions be your strength to advocate and document your unique health details. Take charge of your health and your future join the MedicalBuddy Solutions community.
                         </p>
 
-                </Col>
+                    </Col>
                 </Row>
                 <Row style={{width:"100%", margin:"0px",paddingBottom:"2vw", backgroundColor:"white"}}>
 
@@ -50,10 +94,13 @@ class OurMission extends Component {
 
                 </Row>
 
-                 <br/>
-                 <br/>
-                 <Footer/>
+                <br/>
+                <br/>
+                <Footer/>
+                </>}
             </Container>
+
+
         );
     }
 }
