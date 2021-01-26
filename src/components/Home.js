@@ -4,14 +4,14 @@ import stock from "../images/Untitled-3.png"
 import Heading from "./Heading";
 import "../Home.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import QRcode from "../images/istockphoto-910737126-1024x1024.jpg"
-import healthWealth from "../images/istockphoto-1062274514-1024x1024.jpg"
+import QRcode from "../images/QR-code-600x600.png"
+import healthWealth from "../images/iStock-1062274514.jpg"
 import video from "../videos/Medical buddy solutions.mp4"
-import paramedicPhoto from "../images/istockphoto-1131889468-1024x1024.jpg"
-import techPhoto from "../images/istockphoto-588366224-1024x1024.jpg"
+import paramedicPhoto from "../images/iStock-1131889468.jpg"
+import techPhoto from "../images/iStock-588366224.jpg"
 import {Container, Row, Col } from 'reactstrap';
 import lockPhoto from "../images/istockphoto-913016600-1024x1024.jpg"
-import healthCarePhoto from "../images/istockphoto-1182616138-2048x2048.jpg"
+import healthCarePhoto from "../images/iStock-1182616138.jpg"
 import cover from "../images/Frame 2.png"
 import videoPreview from "../images/Capture.jpg";
 
